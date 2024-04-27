@@ -27,7 +27,6 @@ const LoginForm = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = (e, actions) => {
-    // const form = e.currentTarget;
 
     dispatch(logIn(e))
       .unwrap()

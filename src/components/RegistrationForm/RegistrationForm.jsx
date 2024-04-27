@@ -33,7 +33,6 @@ const RegistrationForm = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = (e, actions) => {
-    // const form = e.currentTarget;
 
     dispatch(register(e));
 
